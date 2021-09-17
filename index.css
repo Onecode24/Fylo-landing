@@ -1,0 +1,263 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-family: Open_Sans;
+    width: auto;
+}
+start a{
+    font-size: 14px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+}
+.start{
+    width: 250px;
+    margin-top: 25px;
+    font-family: Raleway;
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+@font-face {
+    font-family: Open_Sans;
+    src: url(Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway/static/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: RalewayBold;
+    src: url(Raleway/static/Raleway-Bold.ttf);
+}
+.intro{
+    text-align: center;
+}
+.alt{
+    text-align: center;
+    display: grid;
+}
+alt{
+    font-family: RalewayBold;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+button{
+    background-color: hsl(176, 68%, 64%);
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    position: center;
+    font-size: 15px;
+}
+.line{
+ display: flex;
+ justify-content: space-evenly;
+ margin: 25px;   
+}
+.details{
+    display: grid;
+    text-align: center;
+    
+}
+titre{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.details img{
+    margin-left: 40%;
+}
+.middle{
+    display: flex;
+    margin: 55px;
+    margin-top: 75px;
+}
+a{
+    color: hsl(176, 68%, 64%);
+}
+.text{
+    margin-top: 70px;
+    margin-left: 25px;
+}
+.comments{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/bg-quotes.png);
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 300px;
+}
+.said{
+    width: 340px;
+}
+.info img{
+    border-radius: 100%;
+    margin-top :10px;
+}
+.info{
+    display: flex;
+}
+.status{
+    margin-left: 15px;
+} 
+.status h3{
+    margin-bottom: -5px;
+}
+.personel{
+    margin-bottom: 25px;
+    font-size: 14px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding: 15px;
+}
+input{
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+}
+.mail{
+    width: 50%;
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: -125px;
+    position: absolute;
+    margin-left: 330px;
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+    margin: -8.3px;
+    padding-top: 200px;
+    padding-bottom: 10px;
+    width: auto;
+}
+.infos{
+    display: flex;
+    justify-content: space-around;
+}
+footer img{
+    margin: 20px;
+}
+.where{
+    display: flex;
+}
+.number{
+    display: flex;
+}
+ .com{
+    display: flex;
+}
+.number .txte{
+    margin-top: 15px;
+}
+.com .txte{
+    margin-top: 15px;
+}
+start :hover{
+    text-decoration: 1px white underline;
+    font-weight: 600;
+}
+start a :hover{
+    font-size: 14px;
+    margin-right: 25px;
+    text-decoration: underline;
+    
+}
+.email{
+    margin-top: 15px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+main button{
+    width: 200px;
+    margin-left: 560px;
+    margin-top: 15px;
+}
+.email .start{
+    margin-top: -10px;
+}
+@media screen and (max-width:375px) {
+    logo img{
+        width: 80px;
+    }
+    start a{
+       font-size:12px;
+       margin-right: 15px; 
+    }
+    .intro img{
+        width: 375px;
+    }
+    .middle img{
+        width: 375px;
+    }
+    .middle{
+        display: block;
+        margin-left: 25px;
+    }
+    .line{
+        display: block;
+    }
+    .details{
+        margin-bottom: 25px;
+    }
+    .comments{
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    main button{
+        width: 200px;
+        margin-left: 85px;
+        margin-top: 15px;
+    }
+    .start{
+        width: 175px;
+    }
+    main alt{
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .text h1{
+        font-size: 25px;
+    }
+    .said{
+        width: 285px ;
+    }
+    .mail{
+        margin-left: 10px;
+        width: 300px;
+        margin-top: -200px;
+    }
+    .mail h1{
+        font-size: 25px;
+    }
+    input{
+        width: 300px;
+    }
+    .email .start{
+        width: 300px;
+    }
+    .infos{
+        display: block;
+    }
+    .about{
+        margin-left: 20px;
+    }
+    .contact{
+        margin-left: 20px;
+    }
+}
