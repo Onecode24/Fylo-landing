@@ -81,6 +81,9 @@ titre{
     margin: 55px;
     margin-top: 75px;
 }
+.middle img{
+    width: 100%;
+}
 a{
     color: hsl(176, 68%, 64%);
 }
@@ -96,6 +99,7 @@ a{
     padding-top: 30px;
     margin-left: 25px;
     margin-bottom: 300px;
+    width: 100%;
 }
 .said{
     width: 340px;
@@ -134,7 +138,7 @@ input{
     border-radius: 5px;
     margin-top: -125px;
     position: absolute;
-    margin-left: 330px;
+    margin-left: 25%;
 }
 footer{
     background-color: hsl(216, 53%, 9%);
@@ -184,7 +188,7 @@ button a{
 }
 main button{
     width: 200px;
-    margin-left: 560px;
+    margin-left: 40%;
     margin-top: 15px;
 }
 .email .start{
